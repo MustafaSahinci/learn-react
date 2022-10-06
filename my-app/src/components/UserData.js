@@ -1,0 +1,11 @@
+import React from 'react'
+
+function UserData(props) {
+  return (
+    <div>
+        <h1>{props.isloaded ? "data loaded" : "loading..."}</h1>
+    </div>
+  )
+}
+
+export default UserData
