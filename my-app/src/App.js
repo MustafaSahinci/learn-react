@@ -8,6 +8,7 @@ import ConditionalRenderingFunctional from './components/ConditionalRenderingFun
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import NestingComponents from './components/NestingComponents';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+import RenderingList from './components/RenderingList';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <ConditionalRenderingClass />
         <NestingComponents />
         <MethodsAsPropsParent />
+        <RenderingList />
     </div>
   );
 }
