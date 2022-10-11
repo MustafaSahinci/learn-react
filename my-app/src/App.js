@@ -15,10 +15,13 @@ import LifeCyclesCWU from './components/LifeCyclesCWU';
 import ControlledForm from './components/ControlledForm';
 import UnControlledForm from './components/UnControlledForm';
 import SearchBar from './components/SearchBar';
+import ControlledFormHooks from './components/ControlledFormHooks';
 
 function App() {
   return (
     <div className="App">
+        <ControlledFormHooks />
+        <hr/> <br/>
         <SearchBar />
         <hr/> <br/>
         <UnControlledForm />
