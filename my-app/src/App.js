@@ -16,10 +16,19 @@ import ControlledForm from './components/ControlledForm';
 import UnControlledForm from './components/UnControlledForm';
 import SearchBar from './components/SearchBar';
 import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWithArrays from './components/UseStateWithArrays';
+import UseStateWithObjects from './components/UseStateWithObjects';
+import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 
 function App() {
   return (
     <div className="App">
+        <UseEffectCounterContainer />
+        <hr/> <br/>
+        <UseStateWithObjects />
+        <hr/> <br/>
+        <UseStateWithArrays />
+        <hr/> <br/>
         <ControlledFormHooks />
         <hr/> <br/>
         <SearchBar />
